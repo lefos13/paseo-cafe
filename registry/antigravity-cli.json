@@ -1,0 +1,12 @@
+{
+  "repo": "lefos13/paseo-plugin-antigravity-cli",
+  "package": "paseo-plugin-antigravity-cli",
+  "categories": ["provider"],
+  "caveats": [
+    "Requires Google's Antigravity CLI (agy) installed and signed in on the daemon host; built against agy 1.2.9.",
+    "No steering, in-app permission prompts, or revert: agy's stream-json mode does not expose them.",
+    "Sharing Paseo's MCP tools is opt-in and writes a credential-bearing .agents/mcp_config.json (locally git-excluded).",
+    "Verified end to end on macOS only."
+  ],
+  "submittedBy": "lefos13"
+}
